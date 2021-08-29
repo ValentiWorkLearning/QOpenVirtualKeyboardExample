@@ -1,0 +1,3 @@
+[submodule "OpenVirtualKeyboard"]
+	path = OpenVirtualKeyboard
+	url = https://github.com/ValentiWorkLearning/OpenVirtualKeyboard.git
