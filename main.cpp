@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
     qputenv("QT_DEBUG_PLUGINS", QByteArray("1"));
-    qputenv("QT_IM_MODULE", QByteArray("openvirtualkeyboard"));
+    qputenv("QT_IM_MODULE", QByteArray("openvirtualkeyboard:animateRollout"));
 
     // Only for debugging purpouses. For more details - look through
     // https://doc.qt.io/qt-5/qtqml-syntax-propertybinding.html This allows to verify, that some
