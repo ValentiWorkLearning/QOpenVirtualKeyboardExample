@@ -3,7 +3,9 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import Qt.labs.platform 1.0
 
-//import QtQuick.FreeVirtualKeyboard 1.0
+// These imports are required for forcing the deployment tool to copy the dependent files of the Virtual Keyboard.
+import QtQuick.Layouts 1.12
+import Qt.labs.qmlmodels 1.0
 
 ApplicationWindow  {
     width: Screen.width/3
